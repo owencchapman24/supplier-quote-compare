@@ -1,0 +1,30 @@
+[
+  {
+    "label": "fixture",
+    "nodes": 13,
+    "milliseconds": 15.54,
+    "proof": "Verified optimum",
+    "cashCents": 15600
+  },
+  {
+    "label": "empty cutoff",
+    "nodes": 1,
+    "milliseconds": 0.07,
+    "proof": "No complete plan found within limit",
+    "cashCents": null
+  },
+  {
+    "label": "feasible cutoff",
+    "nodes": 6,
+    "milliseconds": 0.17,
+    "proof": "Search limit reached ┬╖ best found only",
+    "cashCents": 17100
+  },
+  {
+    "label": "default cutoff",
+    "nodes": 100000,
+    "milliseconds": 102.84,
+    "proof": "Search limit reached ┬╖ best found only",
+    "cashCents": 75003500
+  }
+]

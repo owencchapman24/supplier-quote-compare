@@ -1,0 +1,117 @@
+{
+  "source": {
+    "issuer": "Montgomery County Public Schools",
+    "report": "Frozen Pizza",
+    "request": "9111",
+    "cycle": 7,
+    "date": "2021-04-16",
+    "validFrom": "2021-07-01",
+    "validTo": "2023-06-30",
+    "url": "https://ww2.montgomeryschoolsmd.org/departments/procurement/uploads/9111.7/9111.7%20Bidtab.pdf#page=4",
+    "page": 4,
+    "item": "34893",
+    "bidUnit": "case",
+    "requestedPack": 70,
+    "requestedShape": "Round or rectangular wedge",
+    "deliveryBasis": "Direct truckload from manufacturer",
+    "inspection": "Manually transcribed from the rendered fourth page."
+  },
+  "offers": [
+    {
+      "supplier": "Conagra Brands",
+      "sku": "77387-12616",
+      "pack": 72,
+      "unit": "servings",
+      "manufacturerIngredientsCents": 3824,
+      "conditionalPrices": [
+        {
+          "cents": 2138,
+          "basis": "USDA-donated mozzarella"
+        }
+      ],
+      "confirm": "Would the buyer accept 72 servings per case against a requested pack of 70?"
+    },
+    {
+      "supplier": "Nardone Brothers Baking",
+      "sku": "72WWSCM2",
+      "pack": 70,
+      "unit": "pieces of 4.95 oz",
+      "manufacturerIngredientsCents": 4600,
+      "conditionalPrices": [
+        {
+          "cents": 1616,
+          "basis": "USDA-donated mozzarella"
+        },
+        {
+          "cents": 5800,
+          "basis": "Individually wrapped commercial"
+        }
+      ],
+      "confirm": "Does the order require individual wrapping? Its commercial price is different."
+    },
+    {
+      "supplier": "Mickey's Wholesale Pizza",
+      "sku": "G16C16S08F",
+      "pack": 80,
+      "unit": "servings",
+      "manufacturerIngredientsCents": 5022,
+      "conditionalPrices": [
+        {
+          "cents": 3000,
+          "basis": "Buyer supplies USDA cheese and flour"
+        }
+      ],
+      "confirm": "Confirm pack variance and ingredient eligibility. The displayed $30 price requires donated ingredients."
+    },
+    {
+      "supplier": "Schwan's Food Service",
+      "sku": "73158",
+      "pack": 96,
+      "unit": "triangular wedges",
+      "manufacturerIngredientsCents": 4651,
+      "conditionalPrices": [
+        {
+          "cents": 3820,
+          "basis": "USDA-donated mozzarella"
+        }
+      ],
+      "confirm": "Confirm a triangular wedge and 96-count case satisfy the requested shape and 70-count pack."
+    }
+  ],
+  "illustration": {
+    "demand": 140,
+    "freightCents": 0,
+    "taxCents": 0,
+    "basis": "Manufacturer-supplied ingredients. For arithmetic only, assume one quoted serving or piece fulfills one demand unit and truckload conditions can be met. These are fictional assumptions. No offer is approved.",
+    "expected": [
+      {
+        "sku": "77387-12616",
+        "cases": 2,
+        "received": 144,
+        "excess": 4,
+        "cashCents": 7648
+      },
+      {
+        "sku": "72WWSCM2",
+        "cases": 2,
+        "received": 140,
+        "excess": 0,
+        "cashCents": 9200
+      },
+      {
+        "sku": "G16C16S08F",
+        "cases": 2,
+        "received": 160,
+        "excess": 20,
+        "cashCents": 10044
+      },
+      {
+        "sku": "73158",
+        "cases": 2,
+        "received": 192,
+        "excess": 52,
+        "cashCents": 9302
+      }
+    ]
+  }
+}

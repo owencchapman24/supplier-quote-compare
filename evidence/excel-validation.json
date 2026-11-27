@@ -1,0 +1,29 @@
+{
+  "excelVersion": "16.0",
+  "build": 20326.0,
+  "openedReadOnly": true,
+  "sheets": 9,
+  "calculatedCash": [
+    141.0,
+    171.0
+  ],
+  "reconstructedCash": {
+    "Plan 1": 141.0,
+    "Plan 2": 171.0
+  },
+  "deliveryByOrder": {
+    "Plan 1|Supplier B": 35.0,
+    "Plan 2|Supplier A": 0.0,
+    "Plan 2|Supplier B": 35.0
+  },
+  "potentialClipping": [],
+  "wrappedRows": [
+    "Order by supplier row 4 - saved 41 pt, Excel AutoFit 30 pt",
+    "Plan comparison row 2 - saved 41 pt, Excel AutoFit 30 pt",
+    "Plan comparison row 3 - saved 41 pt, Excel AutoFit 30 pt",
+    "All plan orders row 4 - saved 41 pt, Excel AutoFit 30 pt",
+    "All plan orders row 6 - saved 41 pt, Excel AutoFit 30 pt",
+    "All plan orders row 8 - saved 41 pt, Excel AutoFit 30 pt",
+    "Quantity boundaries row 2 - saved 73 pt, Excel AutoFit 45 pt"
+  ]
+}

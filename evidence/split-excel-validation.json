@@ -1,0 +1,84 @@
+[
+  {
+    "app": "Excel Desktop",
+    "version": "16.0",
+    "build": 20326.0,
+    "openedReadOnly": true,
+    "cupDemand": 1750,
+    "lidDemand": 1000,
+    "lines": [
+      {
+        "sku": "A-12",
+        "cases": 1.0,
+        "received": 1000.0,
+        "merchandiseCents": 4800.0
+      },
+      {
+        "sku": "B-C12",
+        "cases": 1.0,
+        "received": 750.0,
+        "merchandiseCents": 3300.0
+      },
+      {
+        "sku": "B-L90",
+        "cases": 1.0,
+        "received": 1000.0,
+        "merchandiseCents": 4000.0
+      }
+    ],
+    "merchandiseBySupplierCents": {
+      "Supplier A": 4800.0,
+      "Supplier B": 7300.0
+    },
+    "deliveryBySupplierCents": {
+      "Supplier A": 0.0,
+      "Supplier B": 3500.0
+    },
+    "cashCents": 15600.0,
+    "cupExcess": 0.0,
+    "lidExcess": 0,
+    "allPlanCents": [
+      15600,
+      17100,
+      17400
+    ]
+  },
+  {
+    "app": "Excel Desktop",
+    "version": "16.0",
+    "build": 20326.0,
+    "openedReadOnly": true,
+    "cupDemand": 1751,
+    "lidDemand": 1000,
+    "lines": [
+      {
+        "sku": "A-12",
+        "cases": 2.0,
+        "received": 2000.0,
+        "merchandiseCents": 9600.0
+      },
+      {
+        "sku": "B-L90",
+        "cases": 1.0,
+        "received": 1000.0,
+        "merchandiseCents": 4000.0
+      }
+    ],
+    "merchandiseBySupplierCents": {
+      "Supplier A": 9600.0,
+      "Supplier B": 4000.0
+    },
+    "deliveryBySupplierCents": {
+      "Supplier A": 0.0,
+      "Supplier B": 3500.0
+    },
+    "cashCents": 17100.0,
+    "cupExcess": 249.0,
+    "lidExcess": 0,
+    "allPlanCents": [
+      17100,
+      17400,
+      18900
+    ]
+  }
+]
